@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تذوق</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="preload"
+      href="css/all.min.css"
+      as="style"
+      onload="
+        this.onload = null;
+        this.rel = 'stylesheet';
+      "
+    />
+
+    <!-- Flatpickr -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/material_orange.css"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body dir="rtl">
+    <header class="header">
+      <div class="container">
+        <span class="logo">تذوق</span>
+        <div class="list">
+          <ul>
+            <li><a href="#dishes">الأطباق</a></li>
+            <li><a href="#aboutUs">عن المطعم</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <button class="reserveBtn">احجز طاولة</button>
+      </div>
+    </header>
+    <div class="hero">
+      <div>
+        <h2>أشهى المأكولات في أجواء عائلية</h2>
+        <p>نقدم لكم أفضل الأطباق الشرقية والغربية بأيدي أمهر الطهاة</p>
+        <div>
+          <button class="btnShape">اطلع على القائمة</button>
+          <button class="btnShape">احجز الآن</button>
+        </div>
+      </div>
+    </div>
+
+    <section id="dishes" class="dishes">
+      <div class="container">
+        <h2 class="sectionTitle">أشهى أطباقنا</h2>
+        <div class="cards-dishes">
+          <div class="card">
+            <h3>شاورما عربية</h3>
+            <img loading="lazy" src="img/shawarmaDish.jpg" alt="شاورما عربية" />
+            <div class="info">
+              <p>المكونات : <span>لحم دجاج , خضار , صلصة خاصة</span></p>
+              <p>السعر : <span>8$</span></p>
+            </div>
+            <button class="order">اطلب الآن</button>
+          </div>
+          <div class="card">
+            <h3>بيتزا إيطالية</h3>
+            <img loading="lazy" src="img/pizzaDish.jpg" alt="بيتزا إيطالية" />
+            <div class="info">
+              <p>المكونات : <span> عجينة طازجة، جبنة موزاريلا، ريحان</span></p>
+              <p>السعر : <span>12$</span></p>
+            </div>
+            <button class="order">اطلب الآن</button>
+          </div>
+          <div class="card">
+            <h3>كبة مشوية</h3>
+            <img loading="lazy" src="img/kibbehDish.jpg" alt="كبة مشوية" />
+            <div class="info">
+              <p>المكونات : <span>لحم مع برغل، صنوبر، لبن زبادي</span></p>
+              <p>السعر : <span>10$</span></p>
+            </div>
+            <button class="order">اطلب الآن</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="aboutUs" class="aboutUs">
+      <div class="container">
+        <h2 class="sectionTitle">من نحن</h2>
+        <p>
+          تأسس مطعم تذوق عام 2015 بهدف تقديم تجربة طعام استثنائية , نستخدم أجود
+          المكونات الطازجة ونقدمها في بيئة عائلية دافئة مع خدمة سريعة ومتميزة
+        </p>
+        <div class="allInfo">
+          <div class="allFeatures">
+            <div class="feature">
+              <i
+                class="fa-solid fa-bowl-food fa-2x"
+                style="color: rgb(221, 72, 34)"
+              ></i>
+              <h3>مكونات طازجة</h3>
+              <p>نختار أفضل المكونات يومياً</p>
+            </div>
+            <div class="feature">
+              <i
+                class="fa-solid fa-kitchen-set fa-2x"
+                style="color: rgb(221, 72, 34)"
+              ></i>
+              <h3>طهاة محترفون</h3>
+              <p>خبراء في المطبخ الشرقي والغربي</p>
+            </div>
+            <div class="feature">
+              <i
+                class="fa-solid fa-house-chimney-window fa-2x"
+                style="color: rgb(221, 72, 34)"
+              ></i>
+              <h3>أجواء عائلية</h3>
+              <p>بيئة مريحة ومناسبة للجميع</p>
+            </div>
+            <div class="feature">
+              <i
+                class="fa-solid fa-truck-fast fa-2x"
+                style="color: rgb(221, 72, 34)"
+              ></i>
+              <h3>خدمة توصيل سريعة</h3>
+              <p>نوصل طلبك حتى باب منزلك</p>
+            </div>
+          </div>
+          <div class="images">
+            <img
+              loading="lazy"
+              src="img/reataurantBg.jpg"
+              alt="صورة المطعم من الداخل"
+            />
+
+            <img
+              loading="lazy"
+              src="img/reataurantBg2.jpg"
+              alt="صورة المطعم من الداخل"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="opinions">
+      <div class="container">
+        <h2 class="sectionTitle">آراء العملاء</h2>
+
+        <p>ماذا يقول عملاؤنا؟</p>
+
+        <div class="opinion-cards">
+          <article class="card">
+            <img src="img/avatarMale.jpg" alt="افتار" />
+            <div>
+              <cite>أحمد خالد</cite>
+              <div class="rate">⭐⭐⭐⭐⭐</div>
+            </div>
+            <p>أفضل شاورما في المدينة</p>
+          </article>
+          <article class="card">
+            <img src="img/avatarFemale.jpg" alt="افتار" />
+            <div>
+              <cite>سارة محمود</cite>
+              <div class="rate">⭐⭐⭐⭐⭐</div>
+            </div>
+            <p>أجواء رائعة وخدمة ممتازة</p>
+          </article>
+          <article class="card">
+            <img src="img/avatarMale.jpg" alt="افتار" />
+            <div>
+              <cite>محمد علي</cite>
+              <div class="rate">⭐⭐⭐⭐⭐</div>
+            </div>
+            <p>البيتزا طازجة ولذيذة</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="reserve" class="reserve">
+      <div class="container">
+        <h2 class="sectionTitle">احجز طاولتك الآن</h2>
+        <form action="#">
+          <div class="form-grid">
+            <div class="form-group">
+              <div class="form-row">
+                <label for="fullName">الاسم الكامل</label>
+                <input
+                  placeholder="اكتب الاسم الكامل"
+                  id="fullName"
+                  type="text"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <label for="phone">رقم الهاتف</label>
+                <input
+                  dir="rtl"
+                  placeholder="اكتب رقم الهاتف هنا"
+                  id="phone"
+                  type="tel"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="form-row">
+                <label for="date">تاريخ الحجز</label>
+                <input name="date" type="date" id="date" required />
+              </div>
+
+              <div class="form-row">
+                <label for="time">وقت الحجز</label>
+                <input name="time" type="time" id="time" required />
+              </div>
+            </div>
+
+            <div class="persons-group">
+              <label for="persons"></label>
+              <select class="persons" id="persons" name="persons" required>
+                <option value="">اختر عدد الاشخاص</option>
+                <option value="1">1 شخص</option>
+                <option value="2">2 أشخاص</option>
+                <option value="3">3 أشخاص</option>
+                <option value="4">4 أشخاص</option>
+                <option value="5">5 أشخاص</option>
+                <option value="6">6+ أشخاص</option>
+              </select>
+            </div>
+
+            <button type="submit" class="submit-btn">تأكيد الحجز</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="info">
+            <h3>تذوق</h3>
+            <p>نقدم أشهى المأكولات الشرقية والغربية في أجواء عائلية دافئة</p>
+          </div>
+          <div class="opening">
+            <h3>ساعات العمل</h3>
+            <ul>
+              <li>يومياً طوال الأسبوع</li>
+              <li>12:00 ظهراً - 12:00 منتصف الليل</li>
+            </ul>
+          </div>
+          <div class="contact">
+            <h3>اتصل بنا</h3>
+            <ul>
+              <li dir="ltr">+963 893 424 334</li>
+              <li>info@tazawuq.com</li>
+              <li>دمشق، سوريا</li>
+            </ul>
+          </div>
+          <div class="social">
+            <h3>وسائل التواصل</h3>
+            <ul>
+              <li>
+                <a class="facebook" href="#"
+                  ><i class="fab fa-facebook-f fa-lg"></i
+                ></a>
+              </li>
+              <li>
+                <a class="instagram" href="#"
+                  ><i class="fa-brands fa-instagram fa-lg"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-x-twitter fa-lg"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyrights">
+          جميع الحقوق محفوظة &copy; لمطعم <span>تذوق</span> 2026
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ar.js"></script>
+    <script>
+      flatpickr("#date", {
+        locale: "ar",
+        dateFormat: "Y-m-d",
+        altFormat: "j F، Y",
+        altInput: true,
+        minDate: "today",
+        theme: "material_orange",
+      });
+
+      flatpickr("#time", {
+        locale: "ar", // اللغة العربية
+        enableTime: true,
+        noCalendar: true,
+        dateFormat: "H:i",
+        theme: "material_orange", // نمط جميل
+      });
+    </script>
+  </body>
+</html>
