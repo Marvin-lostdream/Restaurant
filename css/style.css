@@ -440,8 +440,10 @@ body {
   font-size: clamp(14px, 3vw, 18px);
 }
 
-.form-grid .form-row input {
+.form-grid .form-row input,
+.persons {
   width: 100%;
+  appearance: none;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 40px;
   border: 2px solid rgba(255, 255, 255, 0.4);
@@ -464,19 +466,8 @@ body {
 }
 
 .persons {
-  position: relative;
-  width: 100%;
-  padding: 14px 22px;
-  border-radius: 40px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.4);
-  color: white;
-  font-weight: bold;
-  font-size: clamp(12px, 3vw, 16px);
-  appearance: none;
   outline: none;
   cursor: pointer;
-  transition: var(--main--transition);
 }
 
 .persons:hover {
