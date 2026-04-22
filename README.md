@@ -5,7 +5,7 @@
 Restaurant Landing Page (Frontend Only) - UI Practice Project
 ## التقنيات المستخدمة / Tech Stack
 - HTML5 , CSS3
-- JavaScript (Flatpicker) , Font Awesome
+- JavaScript (Flatpickr) , Font Awesome
 
   ## الرابط  / Live Demo
   [https://restaurant-beta-jade.vercel.app/]
